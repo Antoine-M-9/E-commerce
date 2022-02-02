@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>E-commerce</title>
+
+
+</head>
+<body>
+  <!-- Nav desktop -->  
+  <nav class="navDesktop">
+    <div class="logo"></div>
+    <ul class="menu">  
+      <li><a href="">Collections</a></li>
+      <li><a href="">Men</a></li>
+      <li><a href="">Women</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    <ul class="shoop">
+      <li><a href=""><img src="./images/icon-cart.svg" alt="icon Shop"></a></li>
+      <li id="pP"><a href=""><img src="./images/image-avatar.png" alt="photoDeProfil"></a></li>
+    </ul>
+    <div class="caddie">
+      <h4>Cart</h4>
+      <div class="divider2"></div>
+      <p>Your cart is empty.</p>
+    </div>
+  </nav>
+  <div class="divider"></div>
+  <!-- Nav mobile -->
+  <nav class="navMobile">
+    <div class="navLeft">
+      <a href=""><img src="./images/icon-menu.svg" alt="icon Menu"></a>
+      <a href=""><img src="./images/logo.svg" alt="logo"></a>
+    </div>
+    <div class="navRight">
+      <a href=""><img src="./images/icon-cart.svg" alt="caddie"></a>
+      <a href=""><img src="./images/image-avatar.png" alt="photo de profil"></a>
+    </div>
+    <div class="caddie">
+      <h4>Cart</h4>
+      <div class="divider2"></div>
+      <p>Your cart is empty.</p>
+    </div>
+    <div class="burger">
+      <img src="./images/icon-close.svg" alt="croix">
+      <ul class="blockBurger">
+        <li><a href="">Collections</a></li>
+        <li><a href="">Men</a></li>
+        <li><a href="">Women</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div class="block">
+      <section class="images">
+        <div class="imgPrincipal"></div>
+        <div class="others">
+          <div class="imgSecondaire"></div>
+          <div class="imgSecondaire"></div>
+          <div class="imgSecondaire"></div>
+          <div class="imgSecondaire"></div>
+        </div>
+      </section>
+
+      <section class="text">
+        <h3>SNEAKER COMPANY</h3>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p id="description">These low-profile sneakers are your perfect casual wear <br> companion. Featuring a durable rubber outer sole, they’ll <br> withstand everything the weather can offer.</p>
+        <div class="price"><p class="realPrice">$125.00</p><p class="reduc">50%</p></div>
+        <p id="barrer">$250.00</p>
+        <div class="addCart">
+          <div class="moreLess">
+            <img id="less" src="./images/icon-minus.svg" alt="icon moins">
+            <p id="result">0</p>
+            <img id="more" src="./images/icon-plus.svg" alt="icon plus">
+          </div>
+          <button>
+            <img src="./images/icon-cart-white.svg" alt="">
+            <p>Add to cart</p>
+          </button>
+        </div>
+        
+      </section>
+
+      <section class="textMobile">
+        <h3>SNEAKER COMPANY</h3>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p id="description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="inlinePrice">          
+          <div class="price"><p class="realPrice">$125.00</p><p class="reduc">50%</p></div>
+          <p id="barrer">$250.00</p>
+        </div>
+        <div class="addCart">
+          <div class="moreLess">
+            <a href=""><img src="./images/icon-minus.svg" alt=""></a>
+            <p>0</p>
+            <a href=""><img src="./images/icon-plus.svg" alt=""></a>
+          </div>
+          <button>
+            <img src="./images/icon-cart-white.svg" alt="">
+            <p>Add to cart</p>
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
